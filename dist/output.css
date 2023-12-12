@@ -1510,6 +1510,18 @@ video {
   writing-mode: vertical-lr;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2196f3;
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
