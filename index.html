@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awsome -->
+    <link href="./dist/fontawsome/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+<body>
+  <!-- start header -->
+  <header class=" shadow-sm shadow-main/[0.5]">
+    <nav class="container flex justify-between items-center flex-col md:flex-row  relative ">
+        <a class="block text-2xl text-main font-extrabold" href="#">
+            Bassam
+        </a>
+  <header class="">
+        <ul class="main-nav flex  justify-between items-center">
+            <li><a class="  block px-3 py-2 md:py-6 md:px-6 hover:bg-neutral-50 hover:text-main transition-all duration-300 text-base md:text-lg/snug overflow-hidden relative before:absolute before:w-full before:h-1 before:bg-main before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 " href="#articles">Articles</a></li>
+            <li><a class="  block px-3 py-2 md:py-6 md:px-6 hover:bg-neutral-50 hover:text-main transition-all duration-300 text-base md:text-lg/snug overflow-hidden relative before:absolute before:w-full before:h-1 before:bg-main before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 " href="#gallery">Gallery</a></li>
+            <li><a class="  block px-3 py-2 md:py-6 md:px-6 hover:bg-neutral-50 hover:text-main transition-all duration-300 text-base md:text-lg/snug overflow-hidden relative before:absolute before:w-full before:h-1 before:bg-main before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 " href="#features">Features</a></li>
+            <li class="group"><a class="  block px-3 py-2 md:py-6 md:px-6 hover:bg-neutral-50 hover:text-main transition-all duration-300 text-base md:text-lg/snug overflow-hidden relative before:absolute before:w-full before:h-1 before:bg-main before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 " href="#">Other Links</a>
+            <!-- Start Megamenu -->
+            <div class="mega-menu absolute opacity-0 -z-10 top-[200%] left-0 bg-white w-full flex flex-col md:flex-row p-4 justify-center border-b-4 border-main gap-x-10 group-hover:opacity-100 group-hover:z-50 group-hover:top-[102%] transition-all duration-300 ">
+                <div class="image hidden lg:block  flex-shrink">
+                  <img class="max-w-full" src="./dist/imgs/megamenu.png" alt="" />
+                </div>
+                <ul class="flex-1 divide-y border-b md:border-none text-lg font-bold">
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#testimonials"><i class="far fa-comments fa-fw mr-4"></i> Testimonials</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#team"><i class="far fa-user fa-fw mr-4"></i> Team Members</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#services"><i class="far fa-building fa-fw mr-4"></i> Services</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#our-skills"><i class="far fa-check-circle fa-fw mr-4"></i> Our Skills</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#work-steps"><i class="far fa-clipboard fa-fw mr-4"></i> How It Works</a>
+                  </li>
+                </ul>
+                <ul class="flex-1 divide-y text-lg font-bold">
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#events"><i class="far fa-calendar-alt fa-fw mr-4"></i> Events</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#pricing"><i class="fas fa-server fa-fw mr-4"></i> Pricing Plans</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#video"><i class="far fa-play-circle fa-fw mr-4"></i> Top Videos</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#stats"><i class="far fa-chart-bar fa-fw mr-4"></i> Stats</a>
+                  </li>
+                  <li class="p-4 relative before:absolute before:w-full before:h-full before:bg-slate-50 before:-z-10 z-10 before:top-0 before:-left-full hover:before:left-0 before:transition-all before:duration-300 overflow-hidden text-main space-x-4">
+                    <a  href="#discount"><i class="fas fa-percent fa-fw" mr-4></i> Request A Discount</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- End Megamenu --></li>
+          </ul>
+    </nav>
+  </header>
+  <!-- end header -->
+  <!-- start landing -->
+  <section class="h-[calc(100vh-73px)] flex justify-center items-center relative before:absolute before:h-full before:w-full before:bg-backg before:-z-10 before:-skew-y-12 before:lg:-skew-y-6 overflow-hidden before:-top-10 before:origin-left	">
+    <div class="container flex justify-center lg:justify-between items-center gap-16">
+        <div class="intro text-center  lg:text-start max-w-xl">
+            <h1 class="font-extrabold text-3xl md:text-5xl text-main-alt">Welcome, To Bassam World</h1>
+            <p class=" text-slate-500 mt-4 text-lg md:text-2xl">Here Iam gonna share everything about my life. Books Iam reading, Games Iam Playing, Stories and Events</p>
+        </div>
+        <img class="w-[500px] xl:w-[600px] hidden lg:block animate-up-down relative	" src="./dist/imgs/landing-image.png" alt="">
+    </div>
+    <a class=" absolute bottom-10 text-main animate-bounce-fast" href="#articles">
+        <i class="fas fa-angle-double-down fa-2x  "></i>
+    </a>
+  </section>
+  <!-- end landing -->
+  <!-- start Articles -->
+    <section class="my-24 " id="articles">
+        <h2 class="head">articles</h2>
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-01.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-02.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-03.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-04.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-05.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-06.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-07.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+            <div class=" overflow-hidden rounded-lg bg-white shadow-lg group hover:-translate-y-5 transition-all duration-300">
+                <div class=" w-full">
+                    <img class="w-full" src="./dist/imgs/cat-08.jpg" alt="">
+                </div>
+                <div class="px-8 py-4 border-b">
+                    <h3 class="font-bold text-2xl">Test Title</h3>
+                    <p class="text-777">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit</p>
+                </div>
+                <div class="px-8 py-4 text-main font-bold flex justify-between items-baseline">
+                    <a href="#">Read More</a>
+                    <i class="fa-solid fa-arrow-right  group-hover:animate-moving-arrow "></i>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <div class="relative after:bg-spikes1 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+  <!-- end Articles -->
+      <!-- Start Gallery -->
+      <section class="bg-backg py-16" id="gallery">
+        <h2 class="head">Gallery</h2>
+        <div class="container grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-01.png" alt="" />
+            </div>
+          </div>
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-02.png" alt="" />
+            </div>
+          </div>
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-03.jpg" alt="" />
+            </div>
+          </div>
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-04.png" alt="" />
+            </div>
+          </div>
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-05.jpg" alt="" />
+            </div>
+          </div>
+          <div class="p-4 bg-white ">
+            <div class="overflow-hidden group relative before:absolute before:w-0 before:h-0 before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:z-50   before:bg-white/10 before:hover:animate-flash ">
+              <img class="w-full group-hover:scale-110 group-hover:rotate-2 transition-all duration-300" src="./dist/imgs/gallery-06.png" alt="" />
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <div class="relative after:bg-spikes2 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+      <!-- End Gallery -->
+      <!-- start features -->
+      <section class="my-24" id="features">
+        <h1 class="head">features</h1>
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div class="group border ">
+            <div class="relative overflow-hidden before:inset-0 before:absolute before:bg-red-500/60 after:absolute after:border-shape after:bottom-0 after:border-white after:border-x-transparent after:border-t-transparent group-hover:after:border-shape-2 after:transition-all after:duration-300">
+              <img src="./dist/imgs/features-01.jpg" alt="">
+            </div>
+            <h2 class="text-5xl font-black text-center p-6 mb-10 relative before:absolute before:w-20 before:h-1 before:bg-red-500 before:bottom-0 before:left-1/2  before:-translate-x-1/2">Quality</h2>
+            <p class="text-777 text-xl text-center px-10 my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+            <a class="block w-fit mx-auto px-5 py-2 mb-5 text-2xl font-extrabold text-red-500 border-4  border-red-500  rounded-md transition-all duration-300 hover:text-white overflow-hidden
+            relative  before:absolute before:w-full before:h-full before:bg-red-500 before:top-0 before:-left-full before:transition-all before:duration-300 hover:before:left-0 before:-z-10" href="#">More</a>
+          </div>
+          <div class="group border ">
+            <div class="relative overflow-hidden before:inset-0 before:absolute before:bg-teal-500/60 after:absolute after:border-shape after:bottom-0 after:border-white after:border-x-transparent after:border-t-transparent group-hover:after:border-shape-2 after:transition-all after:duration-300">
+              <img src="./dist/imgs/features-02.jpg" alt="">
+            </div>
+            <h2 class="text-5xl font-black text-center p-6 mb-10 relative before:absolute before:w-20 before:h-1 before:bg-teal-500 before:bottom-0 before:left-1/2  before:-translate-x-1/2">Time</h2>
+            <p class="text-777 text-xl text-center px-10 my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+            <a class="block w-fit mx-auto px-5 py-2 mb-5 text-2xl font-extrabold text-teal-500 border-4  border-teal-500  rounded-md transition-all duration-300 hover:text-white overflow-hidden
+            relative  before:absolute before:w-full before:h-full before:bg-teal-500 before:top-0 before:-left-full before:transition-all before:duration-300 hover:before:left-0 before:-z-10" href="#">More</a>
+          </div>
+          <div class="group border ">
+            <div class="relative overflow-hidden before:inset-0 before:absolute before:bg-blue-400/60 after:absolute after:border-shape after:bottom-0 after:border-white after:border-x-transparent after:border-t-transparent group-hover:after:border-shape-2 after:transition-all after:duration-300">
+              <img src="./dist/imgs/features-03.jpg" alt="">
+            </div>
+            <h2 class="text-5xl font-black text-center p-6 mb-10 relative before:absolute before:w-20 before:h-1 before:bg-blue-500 before:bottom-0 before:left-1/2  before:-translate-x-1/2">Passion</h2>
+            <p class="text-777 text-xl text-center px-10 my-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit harum hic veniam eligendi minima</p>
+            <a class="block w-fit mx-auto px-5 py-2 mb-5 text-2xl font-extrabold text-blue-500 border-4  border-blue-500  rounded-md transition-all duration-300 hover:text-white overflow-hidden
+            relative  before:absolute before:w-full before:h-full before:bg-blue-500 before:top-0 before:-left-full before:transition-all before:duration-300 hover:before:left-0 before:-z-10" href="#">More</a>
+          </div>
+        </div>
+      </section>
+      <div class="relative after:bg-spikes1 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+      <!-- end features -->
+      <!-- start testimonials -->
+      <section class="py-24 bg-backg">
+        <h1 class="head mb-20">testimonials</h1>
+        <div class="container grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-01.png" alt="">
+            <h2 class="font-black text-2xl">Mohamed Farag</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-02.png" alt="">
+            <h2 class="font-black text-2xl">Mohamed Ibrahim</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-03.png" alt="">
+            <h2 class="font-black text-2xl">Shady Nabil</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-04.png" alt="">
+            <h2 class="font-black text-2xl">Amr Hendawy</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-05.png" alt="">
+            <h2 class="font-black text-2xl">Sherief Ashraf</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+          <div class="bg-white p-5 rounded-lg relative">
+          <img class=" rounded-full w-20 h-20 ring-8 ring-backg absolute -top-10 -right-1" src="./dist/imgs/avatar-06.png" alt="">
+            <h2 class="font-black text-2xl">Osama Mohamed</h2>
+            <p class="text-lg text-777">Full Stack Developer</p>
+            <div class=" space-x-2">
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="fa-solid fa-star text-yellow-400"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <p class="text-lg text-777 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus quaerat ducimus</p>
+          </div>
+        </div>
+      </section>
+      <div class="relative after:bg-spikes2 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+      <!-- end testimonials -->
+      <!-- start TEAM MEMBERS -->
+      <section class="py-24">
+        <h1 class="head ">TEAM MEMBERS</h1>
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-01.jpg" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-05.png" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-03.jpg" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-04.jpg" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-05.png" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-06.png" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-07.jpg" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+          <div class="group/scal w-full relative before:absolute before:w-4/5 before:h-full before:bg-stone-100 before:-z-10 before:right-0 before:rounded-2xl 
+          after:absolute after:w-0 after:h-full after:bg-stone-200 after:top-0 after:right-0 after:-z-10 after:rounded-2xl hover:after:w-4/5 after:transition-all after:duration-300 ">
+            <div class=" w-full pt-16 flex   ">
+              <img class="w-[calc(100%-_64px);] rounded-lg  group-hover/scal:grayscale" src="./dist/imgs/team-08.jpg" alt="TEAM1">
+              <div class="w-16 flex flex-col space-y-4 justify-center items-center">
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-facebook-f text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-twitter text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-linkedin-in text-xl text-gray-500 group-hover:text-main"></i></a>
+                <a class="block w-full text-center group" href="#"><i class="fa-brands fa-youtube text-xl text-gray-500 group-hover:text-main"></i></a>
+              </div>
+            </div>
+            <div class="ml-[20%] p-6">
+              <h2 class="font-extrabold text-xl text-main group-hover/scal:text-777">Name</h2>
+              <p class="text-777">Simple Short Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="relative after:bg-spikes1 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+      <!-- end TEAM MEMBERS -->
+  <!-- start SERVICES -->
+  <section class="py-24 bg-backg">
+    <h1 class="head">services</h1>
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-user-shield fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+
+      </div>
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-tools  fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+
+      </div>
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-map-marked fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+
+      </div>
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-laptop-code fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+
+      </div>
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-palette  fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+
+      </div>
+      <div class="text-center bg-white shadow-xl relative hover:-translate-y-3 transition-all duration-300 before:absolute before:h-1 before:w-0 before:bg-main before:top-0 before:left-1/2 hover:before:w-full before:-translate-x-1/2 before:transition-all before:duration-300 ">
+        <i class="fa-solid fa-bullhorn  fa-4x text-neutral-300 mt-5"></i>
+        <h2 class="text-2xl font-extrabold text-main my-6">Security</h2>
+        <a class="block w-full text-right p-4 text-main bg-neutral-100 relative before:absolute before:content-['01'] before:h-full before:p-4 before:pr-10 before:left-0 before:text-2xl before:font-black before:text-white before:bg-main before:top-0 before:grid before:place-content-center
+        after:absolute after:h-full after:w-14 after:bg-neutral-300 after:left-16 after:top-0 after:-skew-x-[30deg]" href="#">Design</a>
+      </div>
+    </div>
+  </section> 
+  <div class="relative after:bg-spikes2 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+ 
+  <!-- end SERVICES -->
+  <!-- start Skills -->
+<section class="py-24">
+  <h1 class="head">our skills</h1>
+<div class="container flex justify-center items-center">
+  <img class="hidden lg:block" src="./dist/imgs/skills.png" alt="#">
+  <div class="flex-1">
+    <div class="brog">
+      <h2 class=" flex justify-between my-4 text-xl font-bold"> HTML
+        <span class=" border px-1.5 rounded-md text-main font-bold text-base ">80%</span>
+      </h2>
+      <div class="w-full h-6 bg-slate-100">
+        <span style="width: 80%;" class="block h-full bg-main"></span>
+      </div>
+    </div>
+    <div class="brog">
+      <h2 class=" flex justify-between my-4 text-xl font-bold"> CSS
+        <span class=" border px-1.5 rounded-md text-main font-bold text-base ">85%</span>
+      </h2>
+      <div class="w-full h-6 bg-slate-100">
+        <span style="width: 85%;" class="block h-full bg-main"></span>
+      </div>
+    </div>
+    <div class="brog">
+      <h2 class=" flex justify-between my-4 text-xl font-bold"> JavaScript
+        <span class=" border px-1.5 rounded-md text-main font-bold text-base ">70%</span>
+      </h2>
+      <div class="w-full h-6 bg-slate-100">
+        <span style="width: 70%;" class="block h-full bg-main"></span>
+      </div>
+    </div>
+    <div class="brog">
+      <h2 class=" flex justify-between my-4 text-xl font-bold"> Python
+        <span class=" border px-1.5 rounded-md text-main font-bold text-base ">80%</span>
+      </h2>
+      <div class="w-full h-6 bg-slate-100">
+        <span style="width: 80%;" class="block h-full bg-main"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</section>
+<div class="relative after:bg-spikes1 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+
+  <!-- end Skills -->
+  <!-- start HOW IT WORKS ? -->
+<section class="py-24 bg-backg relative z-10">
+  <img class="top-52 right-0 absolute -z-10" src="./dist/imgs/dots.png" alt="">
+  <img class="bottom-52 left-0 absolute -z-10" src="./dist/imgs/dots.png" alt="">
+  <h1 class="head">HOW IT WORKS ?</h1>
+<div class="container flex flex-col lg:flex-row gap-10" >
+<img class="max-w-full" src="./dist/imgs/work-steps.png" alt="">
+<div class="flex-1 space-y-5">
+  <div class=" border-2 border-white rounded-md p-7 flex flex-col md:flex-row text-center md:text-left items-center justify-between gap-5 z-10 bg-slate-50 relative before:absolute before:w-0 before:h-0  before:bg-backg before:-z-10 before:transition-all before:duration-300 before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:-translate-y-1/2  hover:before:w-full hover:before:h-full ">
+    <img class="w-20" src="./dist/imgs/work-steps-1.png" alt="#">
+    <div >
+      <h2 class=" text-xl font-extrabold mb-2">Business Analysis</h2>
+      <p class="text-777 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum recusandae debitis vel</p>
+    </div>
+  </div>
+  <div class=" border-2 border-white rounded-md p-7 flex flex-col md:flex-row text-center md:text-left items-center justify-between gap-5 z-10 bg-slate-50 relative before:absolute before:w-0 before:h-0  before:bg-backg before:-z-10 before:transition-all before:duration-300 before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:-translate-y-1/2  hover:before:w-full hover:before:h-full ">
+    <img class="w-20" src="./dist/imgs/work-steps-2.png" alt="#">
+    <div >
+      <h2 class=" text-xl font-extrabold mb-2">Architecture</h2>
+      <p class="text-777 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum recusandae debitis vel</p>
+    </div>
+  </div>
+  <div class=" border-2 border-white rounded-md p-7 flex flex-col md:flex-row text-center md:text-left items-center justify-between gap-5 z-10 bg-slate-50 relative before:absolute before:w-0 before:h-0  before:bg-backg before:-z-10 before:transition-all before:duration-300 before:top-1/2 before:left-1/2 before:-translate-x-1/2  before:-translate-y-1/2  hover:before:w-full hover:before:h-full ">
+    <img class="w-20" src="./dist/imgs/work-steps-3.png" alt="#">
+    <div >
+      <h2 class=" text-xl font-extrabold mb-2">Developement</h2>
+      <p class="text-777 text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nesciunt obcaecati quisquam quis laborum recusandae debitis vel</p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<div class="relative after:bg-spikes2 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+  <!-- End HOW IT WORKS ? -->
+  <!-- start Latest Events -->
+<section class="py-24">
+<h1 class="head">Latest Events</h1>
+<div class="container flex flex-col lg:flex-row justify-center items-center flex-wrap gap-10">
+  <img src="./dist/imgs/events.png" alt="">
+  <div class="flex-1 flex flex-col gap-5  text-center ">
+    <div  class="flex justify-center items-center gap-2 ">
+      <div class="border rounded-lg flex flex-col  ">
+        <span class="text-5xl text-main font-black border-b px-2  md:px-4 py-10">14</span>
+        <span class="py-2">Days</span>
+      </div>
+      <div class="border rounded-lg flex flex-col  ">
+        <span class="text-5xl text-main font-black border-b px-2  md:px-4 py-10">22</span>
+        <span class="py-2">Hours</span>
+      </div>
+      <div class="border rounded-lg flex flex-col  ">
+        <span class="text-5xl text-main font-black border-b px-2  md:px-4 py-10">13</span>
+        <span class="py-2">Minutes</span>
+      </div>
+      <div class="border rounded-lg flex flex-col  ">
+        <span class="text-5xl text-main font-black border-b px-2 md:px-4 py-10">42</span>
+        <span class="py-2">Seconds</span>
+      </div>
+    </div>
+    <h2 class="font-extrabold text-3xl">Tech Masters Event 2021</h2>
+    <p class="text-xl text-777">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero tenetur doloremque iusto ut adipisci quam ratione aliquam excepturi nulla in harum, veritatis porro</p>
+  </div>
+  <form class="w-full max-w-2xl p-5 flex flex-col md:flex-row justify-center md:items-center gap-5 md:rounded-full bg-backg">
+    <input class=" md:basis-3/4 md:rounded-full py-3 px-4 focus:outline-none caret-main " type="email" placeholder="Type Your Email ">
+    <input class="md:basis-1/4 md:rounded-full bg-main cursor-pointer p-3 text-xl/none font-bold text-white" type="submit">
+  </form>
+</div>
+</section>
+<div class="relative after:bg-spikes1 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+  <!-- end Latest Events -->
+  <!-- start PRICING PLANS  -->
+<section class="py-24 bg-backg relative"> 
+  <img class="top-52 right-0 absolute" src="./dist/imgs/dots.png" alt="">
+  <img class="bottom-52 left-0 absolute" src="./dist/imgs/dots.png" alt="">
+  <h1 class="head">PRICING PLANS</h1>
+  <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class=" bg-white pb-7 shadow-lg relative z-10 before:absolute before:w-0 before:h-1/2 before:bg-slate-100 hover:before:w-full before:transition-all before:duration-300 before:-z-10 before:left-0
+    after:absolute after:w-0 after:h-1/2 after:bg-slate-100 hover:after:w-full after:transition-all after:duration-300 after:-z-10 after:right-0 after:bottom-0">
+      <div class="text-center text-3xl font-extrabold py-5">Basic</div>
+      <img class="w-20 mx-auto" src="./dist/imgs/hosting-basic.png" alt="" />
+        <span class="block text-center mt-7 text-6xl font-black text-main">$15</span>
+        <span class="block mb-5 text-center text-777">Per Month</span>
+        <ul class="divide-y border-t">
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">10GB HDD Space</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">2 Subdomains</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">5 Email Addresses</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">4 Databases</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">Basic Support</li>
+      </ul>
+      <a class="block w-fit mx-auto mt-5 px-4 py-2 border-2 border-main text-lg font-bold rounded-md text-main  hover:text-white hover:bg-main transition-all duration-300" href="#">Choose Plan</a>
+    </div>
+    <div class="lg:-translate-y-7 bg-white pb-5 shadow-lg relative z-10 before:absolute before:w-0 before:h-1/2 before:bg-slate-100 hover:before:w-full before:transition-all before:duration-300 before:-z-10 before:right-0
+    after:absolute after:w-0 after:h-1/2 after:bg-slate-100 hover:after:w-full after:transition-all after:duration-300 after:-z-10 after:left-0 after:bottom-0">
+    <div class="[writing-mode:vertical-lr] absolute right-4 bg-main p-2 pb-8 text-lg font-extrabold text-white  before:absolute before:bg-white before:w-8 before:h-8 before:rotate-45 before:-bottom-4 before:left-1/2 before:-translate-x-1/2 ">Most Popular</div>
+    <div class="text-center text-3xl font-extrabold py-5">Advanced</div>
+      <img class="w-20 mx-auto" src="./dist/imgs/hosting-basic.png" alt="" />
+        <span class="block text-center mt-7 text-6xl font-black text-main">$25</span>
+        <span class="block mb-5 text-center text-777">Per Month</span>
+        <ul class="divide-y border-t">
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">20GB HDD Space</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">5 Subdomains</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">10 Email Addresses</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">8 Databases</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">Advanced  Support</li>
+      </ul>
+      <a class="block w-fit mx-auto mt-5 px-4 py-2 border-2 border-main text-lg font-bold rounded-md text-main hover:text-white hover:bg-main transition-all duration-300" href="#">Choose Plan</a>
+    </div>
+    <div class=" bg-white pb-7 shadow-lg relative z-10 before:absolute before:w-0 before:h-1/2 before:bg-slate-100 hover:before:w-full before:transition-all before:duration-300 before:-z-10 before:left-0
+    after:absolute after:w-0 after:h-1/2 after:bg-slate-100 hover:after:w-full after:transition-all after:duration-300 after:-z-10 after:right-0 after:bottom-0">
+      <div class="text-center text-3xl font-extrabold py-5">Professional</div>
+      <img class="w-20 mx-auto" src="./dist/imgs/hosting-basic.png" alt="" />
+        <span class="block text-center mt-7 text-6xl font-black text-main">$45</span>
+        <span class="block mb-5 text-center text-777">Per Month</span>
+        <ul class="divide-y border-t">
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">50GB HDD Space</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">10 Subdomains</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">20 Email Addresses</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">20 Databases</li>
+        <li class="p-4 before:content-['\f00c'] relative before:font-['Font_Awesome_6_Free'] before:mr-2  before:text-main ">Professional  Support</li>
+      </ul>
+      <a class="block w-fit mx-auto mt-5 px-4 py-2 border-2 border-main text-lg font-bold rounded-md text-main  hover:text-white hover:bg-main transition-all duration-300" href="#">Choose Plan</a>
+    </div>
+  </div>
+</section>
+<div class="relative after:bg-spikes2 after:absolute after:w-full after:h-7 after:right-0 after:bg-[length:30px_30px]"></div>
+
+  <!-- end PRICING PLANS -->
+  <!-- start TOP VIDEOS -->
+<section class="py-24">
+<h1 class="head">TOP VIDEOS</h1>
+<div class="container flex flex-col lg:flex-row">
+  <div class=" border border-backg min-w-96">
+    <div class=" p-4 font-bold flex justify-between items-center bg-stone-100">
+      Top Videos
+      <i class="fa-solid fa-random"></i>
+    </div>
+ <ul class=" divide-y divide-backg">
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">How To Create Sub Domain</a>
+    <span class="block text-777">02:19</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">Playing With The DNS</a>
+    <span class="block text-777">05:18</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">Everything About The Virtual Hosts</a>
+    <span class="block text-777">03:18</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">How To Monitor Your Website</a>
+    <span class="block text-777">05:25</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">Uncharted Beating The Last Boss</a>
+    <span class="block text-777">04:16</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">Ys Oath In Felghana Overview</a>
+    <span class="block text-777">07:48</span>
+  </li>
+  <li class="p-4 hover:text-main hover:bg-slate-50">
+    <a class="block" href="#">Ys Series All Games Ending</a>
+    <span class="block text-777">08:10</span>
+  </li>
+ </ul>
+  </div>
+  <div class="p-3 bg-backg flex flex-col justify-between">
+    <img class="max-w-full" src="./dist/imgs/video-preview.jpg" alt="">
+    <p class=" p-4 mt-3 bg-white">Everything About The Virtual Hosts </p>
+
+  </div>
+</div>
+</section>
+  <!-- end TOP VIDEOS -->
+  <!-- start Our Awesome Stats -->
+<section class="py-24 bg-[url(./imgs/stats.jpg)] relative z-10 before:absolute  before:inset-0  before:bg-white/95 before:-z-10 ">
+  <h1 class="mb-10 text-center font-extrabold text-4xl">Our Awesome Stats</h1>
+  <div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+    <div class="box bg-white p-5 flex flex-col items-center space-y-3 relative before:absolute before:w-0.5  before:h-0 before:bg-main before:bottom-0 before:left-0 hover:before:h-full before:transition-all before:duration-700
+    after:absolute after:w-0.5 after:h-0  after:bg-main after:top-0 after:right-0 hover:after:h-full after:transition-all after:duration-700" >
+      <i class="fa-regular fa-user fa-2x fa-fw"></i>
+      <p class="text-6xl font-bold">150</p>
+      <span class="text-xl font-bold  text-main ">Clients</span>
+
+    </div>
+    <div class="box bg-white p-5 flex flex-col items-center space-y-3 relative before:absolute before:w-0.5  before:h-0 before:bg-main before:bottom-0 before:left-0 hover:before:h-full before:transition-all before:duration-700
+    after:absolute after:w-0.5 after:h-0  after:bg-main after:top-0 after:right-0 hover:after:h-full after:transition-all after:duration-700" >
+      <i class="fas fa-code  fa-2x fa-fw"></i>
+      <p class="text-6xl font-bold">135</p>
+      <span class="text-xl font-bold  text-main ">Projects</span>
+
+    </div>
+    <div class="box bg-white p-5 flex flex-col items-center space-y-3 relative before:absolute before:w-0.5  before:h-0 before:bg-main before:bottom-0 before:left-0 hover:before:h-full before:transition-all before:duration-700
+    after:absolute after:w-0.5 after:h-0  after:bg-main after:top-0 after:right-0 hover:after:h-full after:transition-all after:duration-700" >
+      <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+      <p class="text-6xl font-bold">50</p>
+      <span class="text-xl font-bold  text-main ">Countries</span>
+
+    </div>
+    <div class="box bg-white p-5 flex flex-col items-center space-y-3 relative before:absolute before:w-0.5  before:h-0 before:bg-main before:bottom-0 before:left-0 hover:before:h-full before:transition-all before:duration-700
+    after:absolute after:w-0.5 after:h-0  after:bg-main after:top-0 after:right-0 hover:after:h-full after:transition-all after:duration-700" >
+      <i class="fa-regular fa-money-bill-1 fa-2x fa-fw"></i>
+      <p class="text-6xl font-bold">500</p>
+      <span class="text-xl font-bold  text-main ">Money</span>
+
+    </div>
+  </div>
+
+</section>
+  <!-- End Our Awesome Stats -->
+  <!-- start  Discount -->
+  <section class="flex flex-col lg:flex-row justify-center items-center">
+    <div class="w-full lg:w-1/2 h-4/6 lg:h-screen flex flex-col justify-center items-center py-10  text-white text-center relative z-20 bg-[url('./imgs/discount-background1.jpg')] animate-change-bg before:absolute before:inset-0 before:bg-main/95 before:-z-10">
+      <h2 class="text-4xl font-bold ">We Have A Discount</h2>
+      <p class="max-w-prose text-lg mt-7">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur, recusandae ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel similique laborum dicta aperiam odit doloribus corporis.</p>
+      <img class="max-w-full" src="./dist/imgs/discount.png" alt="">
+    </div>
+    <div class="w-full lg:w-1/2 h-4/6 lg:h-screen flex flex-col justify-center items-center py-10 ">
+      <h2 class=" text-4xl font-black mb-5">Request A Discount</h2>
+      <form class="flex flex-col justify-center items-center w-80 space-y-3" >
+        <input class="p-4 w-full bg-slate-50 border-b focus:outline-none " type="text" placeholder="Your Name" name="name" />
+        <input class="p-4 w-full bg-slate-50 border-b focus:outline-none " type="email" placeholder="Your Email" name="email" />
+        <input class="p-4 w-full bg-slate-50 border-b focus:outline-none " type="text" placeholder="Your Phone" name="mobile" />
+            <textarea class="p-4 w-full bg-slate-50 border-b focus:outline-none h-40 resize-none" placeholder="Tell Us About Your Needs" name="message"></textarea>
+            <input type="submit" value="Send" class="bg-main w-full p-2 font-bold text-white text-xl cursor-pointer" />
+          </form>
+        </div>
+        </section>
+<!-- end  Discount -->
+<!-- start footer -->
+<footer class="py-12 bg-zinc-800 ">
+<div class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+  <div class=" space-y-3">
+    <h1 class="text-4xl text-white font-black">Bassam</h1>
+    <div class="flex justify- items-center gap-2">
+      <a class=" w-12 h-12 flex justify-center items-center bg-zinc-700 hover:bg-[#1877f2] transition-all duration-300 " href="#"><i class="fab fa-facebook-f text-gray-200 text-xl"></i></a> 
+      <a class=" w-12 h-12 flex justify-center items-center bg-zinc-700 hover:bg-[#1DA1F2] transition-all duration-300" href="#"><i class="fab fa-twitter text-gray-200 text-xl"></i></a> 
+      <a class=" w-12 h-12 flex justify-center items-center bg-zinc-700 hover:bg-[#FF0000] transition-all duration-300" href="#"><i class="fab fa-youtube text-gray-200 text-xl"></i></a> 
+    </div>
+    <p class="text-lg text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste aspernatur</p>
+  </div>
+  <ul class="divide-y divide-gray-700">
+    <li class="py-3"> 
+     <a class="block hover:ml-5 text-gray-400 hover:text-white transition-all duration-300" href="#">
+      <i class="fa-solid fa-angles-right mr-2 text-main"></i>
+        Important Link 1
+      </a>
+    </li>
+    <li class="py-3"> 
+     <a class="block hover:ml-5 text-gray-400 hover:text-white transition-all duration-300" href="#">
+      <i class="fa-solid fa-angles-right mr-2 text-main"></i>
+        Important Link 2
+      </a>
+    </li>
+    <li class="py-3"> 
+     <a class="block hover:ml-5 text-gray-400 hover:text-white transition-all duration-300" href="#">
+      <i class="fa-solid fa-angles-right mr-2 text-main"></i>
+        Important Link 3
+      </a>
+    </li>
+    <li class="py-3"> 
+     <a class="block hover:ml-5 text-gray-400 hover:text-white transition-all duration-300" href="#">
+      <i class="fa-solid fa-angles-right mr-2 text-main"></i>
+        Important Link 4
+      </a>
+    </li>
+    <li class="py-3"> 
+     <a class="block hover:ml-5 text-gray-400 hover:text-white transition-all duration-300" href="#">
+      <i class="fa-solid fa-angles-right mr-2 text-main"></i>
+        Important Link 5
+      </a>
+    </li>
+  </ul>
+  <div class="flex flex-col  items-start gap-5">
+    <div class="flex justify-start items-center gap-4">
+      <i class="fas fa-map-marker-alt fa-2x fa-fw text-main"></i>
+      <p class="text-gray-400">Egypt, Giza, Inside The Sphinx, Room Number 220</p>
+    </div>
+    <div class="flex justify-start items-center gap-4">
+      <i class="far fa-clock  fa-2x fa-fw text-main"></i>
+      <p class="text-gray-400">Business Hours: From 10:00 To 18:00</p>
+    </div>
+    <div class="flex justify-start items-center gap-4">
+      <i class="fas fa-phone-volume fa-2x fa-fw text-main"></i>
+      <p class="text-gray-400">+20123456789 <br>
+        +20198765432</p>
+    </div>
+
+  </div>
+  <div  class="flex  justify-center items-center  flex-wrap gap-4 content-center">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-01.png" alt="">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-02.png" alt="">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-03.jpg" alt="">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-04.png" alt="">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-05.jpg" alt="">
+    <img class="w-20 h-20 ring-4 ring-white" src="./dist/imgs/gallery-06.png" alt="">
+  </div>
+</div>
+</footer>
+<div class="p-4 font-semibold border-t border-777 text-center text-white bg-zinc-800">Made With  By Bassam</div>
+<!-- End footer -->
+</html>
